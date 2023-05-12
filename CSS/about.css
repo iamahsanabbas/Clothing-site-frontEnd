@@ -1,0 +1,272 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+   
+
+   body{
+         font-family: 'Montserrat', sans-serif;
+         background-color: #1f2641;
+         outline: none;
+         line-height: 1.7;
+         color: white !important;
+   }
+   a{
+         text-decoration: none;
+         color: white !important;
+   }
+   h1,h2,h3,h4,h5,h6{
+         
+      line-height: 1.2;
+   }
+   h1{
+      font-size: 2.2rem;
+      font-weight: 700;
+   }
+   ul{
+      list-style: none;
+   }
+   p{
+      font-weight: 400;
+      line-height: 1.4;
+   }
+   .navbar-light .navbar-toggler {
+      
+      border: white !important;
+    }
+   .navbar .navbar-nav .nav-item{
+      margin-left: 2rem !important;
+   }
+   .navbar .navbar-nav .nav-link{
+      /* color: white !important; */
+      font-weight: 500;
+   
+   }
+   .navbar .navbar-nav .nav-link:hover,
+   .navbar .navbar-nav .nav-link.active{
+      /* color: white !important; */
+      color: #f75842 !important;
+   
+   }
+   .navbar-brand{
+      font-weight: 600 !important;
+      color: white !important;
+      padding-top: .6rem;
+      padding-bottom: .6rem;
+   }
+   section{
+      padding-top: 4rem;
+      padding-bottom: 4.5rem;
+   }
+
+.btn{
+    padding: 1rem 2rem !important;
+ }   
+ .btn-custom{
+    padding: 1rem 1rem;
+    background-color: #f75842;
+    color: white;
+    border-radius: .5rem;
+ }
+   /* achievements section  */
+
+.achieve-content h1{
+    padding-bottom: 2rem;
+}
+
+.achieve-content p{
+    font-size: 15px !important;
+    font-weight: 500;
+}
+.achieve-box{
+    background-color: #42488c;
+    border-radius: 15px;
+    padding: 12px;
+    margin-top: 2rem;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.achieve-box:hover{
+   box-shadow: 0 10px 10px rgba(0, 0, 0, .4);
+
+}
+.achieve:nth-child(2) .achieve-icon i{
+    background-color: #04bb8f;
+
+}
+.achieve:nth-child(3) .achieve-icon i{
+   background-color: #6d60f3;
+
+}
+.achieve-box h5{
+    font-weight: 700;
+    font-size: 2.1rem;
+    padding-top: 10px;
+
+}
+.achieve-box p{
+    font-weight: 600;
+    padding-top: 7px;
+}
+.achieve-icon i{
+    width: 40px;
+    height: 50px;
+    border-radius: .5rem;
+    background-color: #f75842;
+    color: white;
+    font-size: 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;  
+}
+
+@media only screen 
+  and (min-device-width: 992px) 
+  and (max-device-width: 1050px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .achieve-box{
+      width: 150px;
+    }
+}
+
+
+/* team section  */
+
+
+.team-member{
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   box-sizing: border-box;
+   background-color: #42488c;
+   position: relative;
+   border-radius: 1rem;
+}
+.member-img{
+   
+   margin: 0 auto;
+   display: block;
+}
+.member-img img{
+   width: 250px;
+   height: 250px !important;
+   border-radius: .8rem;
+   margin: 0 auto 1rem;
+   display: block;
+   transition: all .6s ease;
+
+
+   filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+
+
+}
+
+.member-social-icons{
+   position: absolute;
+   height: 120px;
+   width: 50px;
+   background-color: #ababb0;
+   right: 0;
+   top: 35%;
+   display: flex;
+   flex-direction: column;
+   border-top-left-radius: .7rem;
+   transition: all .6s ease;
+   opacity: 0;
+   outline: none;
+
+}
+.team-member:hover .member-social-icons {
+   opacity: 1;
+}
+
+.team-member:hover .member-img img{
+   -webkit-filter: grayscale(0);
+   filter: none;
+}
+.member-social-icons a{
+   width: 50px;
+   height: 40px;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #6d60f3;
+   margin-right: 0;
+   transition: all .6s ease;
+   outline: none;   
+}
+.member-social-icons a:hover{
+   background-color: #2b2e5e;
+   color: white;
+}
+.member-info {
+   text-align: center;
+}
+.member-info h5{
+   font-weight: 600;   
+}
+.member-info p{
+   font-weight: 400;
+   padding-top: .5rem;
+}
+
+
+   /* footer  */
+ #footer{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background-color: #2b2e5e;
+ 
+  }
+  .footer-1,.footer-2,.footer-3,.footer-4{
+    padding: 1rem;
+  }
+  .footer-1 p{
+    font-size: .9rem;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+  .footer-1 p{
+    font-size: .9rem;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+ .footer-head{
+    font-weight: 600 !important;
+    margin-bottom: 2rem;
+ 
+ }
+ .footer-items{
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    transition: all .4s ease;
+ 
+ }
+ .footer-items:hover{
+    color: #f75842;
+    cursor: pointer;
+ }
+ .social-icons i{
+    width: 34px;
+    height: 34px;
+    background-color: grey;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 3px;
+    transition: all .4s ease;
+ }
+ .social-icons i:hover{
+    color: #42488c;
+    cursor: pointer;
+    background-color: white;
+ }
+ .footer-top{
+    border-bottom: 1px solid white;
+ }

@@ -1,0 +1,150 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+   
+
+   body{
+         font-family: 'Montserrat', sans-serif;
+         background-color: #1f2641;
+         outline: none;
+         line-height: 1.7;
+         color: white !important;
+   }
+   a{
+         text-decoration: none;
+         color: white !important;
+   }
+   h1,h2,h3,h4,h5,h6{
+      
+      line-height: 1.2;
+   }
+   h1{
+      font-size: 2.2rem;
+      font-weight: 700;
+   }
+   ul{
+      list-style: none;
+   }
+   p{
+      font-weight: 400;
+      line-height: 1.4;
+   }
+   .navbar-light .navbar-toggler {
+      
+      border: white !important;
+    }
+
+   .navbar .navbar-nav .nav-item{
+      margin-left: 2rem !important;
+   }
+   .navbar .navbar-nav .nav-link{
+      /* color: white !important; */
+      font-weight: 500;
+   
+   }
+   .navbar .navbar-nav .nav-link:hover,
+   .navbar .navbar-nav .nav-link.active{
+      /* color: white !important; */
+      color: #f75842 !important;
+   
+   }
+   .navbar-brand{
+      font-weight: 600 !important;
+      color: white !important;
+      padding-top: .6rem;
+      padding-bottom: .6rem;
+   }
+   section{
+      padding-top: 4rem;
+      padding-bottom: 4.5rem;
+   }
+
+.btn{
+    padding: 1rem 2rem !important;
+ }   
+ .btn-custom{
+    padding: 1rem 1rem;
+    background-color: #f75842;
+    color: white;
+    border-radius: .5rem;
+   font-weight: 500;
+
+ }
+ .btn-custom:hover{
+    color: #f75842 !important;
+    background-color: white;
+ }
+
+ /* contact box  */
+ .contact-container{
+    background-color: #2d3063;
+    height: 33.5rem;
+    border-radius: .6rem;
+ }
+ .contact-box{
+    background-color: #6d60f3;
+    padding: 1.8rem;
+    border-radius: .8rem;
+    position: relative;
+    top: -4rem;
+
+ }
+ .contact-box h5{
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+ }
+ .contact-box p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+ }
+ .phone-line,
+ .email-line,
+ .location-line{
+    display: flex;
+    vertical-align: middle;
+    
+ }
+ .phone-line i,
+ .email-line i,
+ .location-line i{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+    
+ }
+ .phone-line p,
+ .email-line p,
+ .location-line p{
+    font-weight: 500;
+    font-size: 15px;
+ }
+
+ .social-icons i{
+    width: 34px;
+    height: 34px;
+    background-color: #42488c;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 3px;
+    transition: all .4s ease;
+ }
+ .social-icons i:hover{
+    color: #42488c;
+    cursor: pointer;
+    background-color: white;
+ }
+
+
+ .form-content{
+    padding: 2rem;
+    
+  
+ }
+ .form-content .btn{
+    margin-top: 1.5rem;
+ }
